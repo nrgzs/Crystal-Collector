@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(5, 1, 53);
+  text-align: center;
+  background-image: url('./../img/background.png');
+}
+@media only screen and (min-width: 770px) {
+  body {
+    padding: 40px 20%;
+  }
+}
+
+main {
+  background-color: rgb(233, 232, 232);
+  padding: 20px;
+}
+
+h1 {
+  padding: 10px;
+  margin-bottom: 40px;
+  background-color: rgb(255, 221, 0);
+}
+
+h2 {
+  padding: 10px;
+  margin-bottom: 35px;
+  background-color: mediumaquamarine;
+}
+
+.crystal-container {
+  border: 2px solid mediumaquamarine;
+  padding: 10px;
+  margin-bottom: 35px;
+}
+.crystal {
+  width: 50px;
+  padding: 5px;
+}
