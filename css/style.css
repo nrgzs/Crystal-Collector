@@ -43,3 +43,7 @@ h2 {
   width: 50px;
   padding: 5px;
 }
+
+.crystal:hover {
+  cursor: pointer;
+}
